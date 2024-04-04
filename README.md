@@ -39,18 +39,18 @@ Reviving a cell simply involves editing its file to remove the 0 bit from its he
 |Bit-Value|Use|Category|
 |---|---|---|
 | 0 |Null|Null|
-| 1 |   |Shape|
-| 2 |   | * |
-| 3 |   | * |
-| 4 |   |Protrusion|
-| 5 |   | * |
-| 6 |   | * |
+| 1 | ○ |Shape|
+| 2 | △ | * |
+| 3 | □ | * |
+| 4 |Bump (○)|Protrusion|
+| 5 |Spike (△)| * |
+| 6 |Block (□)| * |
 | 7 |Small|Size|
 | 8 |Medium| * |
 | 9 |Large| * |
-| A |   |Mood|
-| B |   | * |
-| C |   | * |
+| A |•⌣•|Mood|
+| B |•_•| * |
+| C |•︵•| * |
 | D |Min|Health|
 | E |Mid| * |
 | F |Max| * |
