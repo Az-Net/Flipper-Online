@@ -65,6 +65,8 @@ For more information, refer to [Cell Processing](#cell-processing)
 
 When cells are interacting, their values are copied to a matrix array for pre-processing, and for simultaneously processing multiple interactions across numerous cells per clock cycle.  
 
+Cells on the matrix seek to copy themselves across each of the matrices cells, interacting with- and consuming enemy cells as they go.
+
 # Cell Processing 
 
 At the most basic level, cells follow a simple roshambo model of interaction.  
@@ -94,7 +96,11 @@ Then:
 
 # Core Gameplay Loop
 
-The only current user interactions involve editing the cells between grid combat, scanning them as they're cloning, and healing the currently scanned cell during combat.
+The only current user interactions involve editing the cells between grid combat, scanning them as they're cloning on the matrix, and healing the currently scanned cell during combat.  
+
+Cells compete on the matrix by randomly being scanned into existence (yada yada this part for now. subghz or gyro step scanning.)  
+When an enemy loses on the grid, their cell is copied to your data repository to be used in future battles, and a copy of the matrix at the time of completion is also saved.
+These matrices will be useful later.
 
 ## Display
 
