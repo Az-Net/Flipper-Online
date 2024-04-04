@@ -99,19 +99,19 @@ First:
 * Compare Speed > Smaller Moves Sooner  
 * Process Protrusion > Loser Changes Form  
 
+Then:
+* Roshambo on Main Shape > Losing Shape -1 HP
+
 Mood:  
 * If Happy then hits enemy > set Protrusion as Enemy Shape
 * If Happy then Hit > Neutral
 * If Neutral then Hit > Sad
-* If Sad then Hit > Set Protrusion 0 
-
-Then:
-* Roshambo on Main Shape > Losing Shape -1 HP
+* If Sad then Hit > Set Protrusion 0  
 
 * If HP Min & Hit = Set Shape 0 (dead)
 * If HP Max & Hits enemy > get bigger
 
-# Core Gameplay Loop
+# Core Gameplay Loop  
 (WiP)
 
 The only current user interactions involve editing the cells between grid combat, scanning them as they're cloning on the matrix, and healing the currently scanned cell during combat.  
