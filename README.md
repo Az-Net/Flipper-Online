@@ -75,6 +75,13 @@ The matrix continues processing until either the user cell shape or the enemy ce
 Users can set one cell of each shape for pre-selection during automatic battles.  
 See [Core Gameplay Loop](#core-gameplay-loop) for more 
 
+### Advanced Processing 
+Matrices can be processed two different ways:
+* by copying values from bin files directly to the matrix, editing the strings, then copying the values back
+* by referencing a cell file by name to edit it directly
+A matrix cell that references itself can loop or recurse.  
+Matrix cells that reference another matrix or themselves can be made to terminate when a cell Doesn't reference another matrix during the current or next parse.  
+
 # Cell Processing 
 
 At the most basic level, cells follow a simple roshambo model of interaction.  
