@@ -20,7 +20,7 @@ The application reads and writes data to- and from- bin files and interprets the
 
 Each cell exists as a hexadecimal string within a plaintext file, with no extension. This means that you can use the existing text viewer and hexadecimal editor apps on the Flipper Zero for modifying cells.  
 Each cell consists of a Shape, a Protrusion of a shape, a Health value, a Size, and a Mood value, creating a layered, fractal-like entity.  
-There are three options for each attribute, and each attribute influences the others during cell interaction.  
+There are three options for each attribute, and each attribute influences the others during cell interaction, for a total of 5^3+1 possible cell states at inception.  
 
 ### Example Cell Strings
 __0x157AF__  
