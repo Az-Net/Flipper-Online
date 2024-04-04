@@ -120,7 +120,7 @@ The only current user interactions involve editing the cells between grid combat
 
 Cells compete on the matrix by randomly being scanned into existence (yada yada this part for now. subghz or gyro step scanning.)  
 When an enemy loses on the grid, their cell is copied to your data repository to be used in future battles, and a copy of the matrix at the time of completion is also saved.
-These matrices will be useful later.
+These matrices will be useful later (see [Online Multiplayer](#online-multiplayer))
 
 ## Display 
 (WiP)
