@@ -95,11 +95,13 @@ Both the Shape and the Protrusion of a cell can be set to 0. Any other Bit-Value
 
 ## Cell Matrix Logic
 (WiP)  
+Matrix Logic is liable to constant optimization and iteration.  
+
 First:  
 * Compare Speed > Smaller Moves Sooner  
 * Process Protrusion > Loser Changes Form  
 
-Then:
+Then:  
 * Roshambo on Main Shape > Losing Shape -1 HP
 
 Mood:  
