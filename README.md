@@ -141,6 +141,7 @@ Cell interactions can be processed at the system level without drawing their int
 ### Economy
 ### Future Development
 * Expand single-bit values 0-F to 2-bit values 0-FF
+* Expand 3x3 Matrix to layered 9x9 variant
 
 # Contributing
 
