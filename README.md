@@ -133,13 +133,18 @@ When an enemy loses on the grid, their cell is copied to your data repository to
 These matrices will be useful later (see [Online Multiplayer](#online-multiplayer))
 
 ### Cell Grid Actions
-* Flee
-* Move
-* Split (Copy Self)
+* Flee  
+Cell tries to move away after interaction
+* Move  
+Cell tries to move anywhere before interactions
+* Split (Copy Self)  
+Cell tries to copy itself to an adjacent slot before or after interaction
 
 ### User Actions
-* Heal
-* Scan
+* Heal  
+You may heal each cell once per grid combat. 
+* Scan  
+When you scan a cell on the matrix, information displays detailing the current health, mood, size, shape and protrusion on that cell. Only one cell may be displayed at a time, and you may only heal a currently-scanned cell.
 
 See [Combat Matrix](#the-combat-matrix) for more.
 
