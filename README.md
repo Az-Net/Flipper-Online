@@ -27,7 +27,8 @@ __0x157AF__
 __0x349BE__  
 __0x208A0__  
 
-(Remember: each Bit-Value category can only be used once. Refer to the [!](Bit-Value Array) below for updated firmware rules.)
+(Remember: each Bit-Value category can only be used once. Refer to the [Bit-Value Array](## "Bit-Value Array)
+ below for updated firmware rules.)
 
 ## Bit-Value Array
 
