@@ -65,7 +65,7 @@ For more information, refer to [Cell Processing](#cell-processing)
 
 When cells are interacting, their values are copied to a matrix array for pre-processing, and for simultaneously processing multiple interactions across numerous cells per clock cycle.  
 
-Cells on the matrix seek to copy themselves across each of the matrices cells, interacting with- and consuming enemy cells as they go.
+Cells on the matrix seek to copy themselves across each of the matrices, interacting with- and consuming enemy cells as they go.
 
 # Cell Processing 
 
