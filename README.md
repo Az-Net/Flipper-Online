@@ -30,7 +30,7 @@ Reviving a cell simply involves editing its file to remove the 0 bit from its he
 
 |Bit|Use|
 |---|---|
-| 0 | X |
+| 0 | Null |
 | 1 |   |
 | 2 |   |
 | 3 |   |
