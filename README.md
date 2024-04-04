@@ -30,22 +30,22 @@ Reviving a cell simply involves editing its file to remove the 0 bit from its he
 
 |Bit-Value|Use|Category|
 |---|---|---|
-| 0 | Null |
+| 0 |Null|Null|
 | 1 |   |Shape|
-| 2 |   |   |
-| 3 |   |   |
+| 2 |   | * |
+| 3 |   | * |
 | 4 |   |Protrusion|
-| 5 |   |   |
-| 6 |   |   |
+| 5 |   | * |
+| 6 |   | * |
 | 7 |Small|Size|
-| 8 |Medium|   |
-| 9 |Large|   |
+| 8 |Medium| * |
+| 9 |Large| * |
 | A |   |Mood|
-| B |   |   |
-| C |   |   |
+| B |   | * |
+| C |   | * |
 | D |Min|Health|
-| E |Mid|   |
-| F |Max|   |
+| E |Mid| * |
+| F |Max| * |
 
 
 
