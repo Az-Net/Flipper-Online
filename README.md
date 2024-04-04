@@ -119,6 +119,7 @@ Mood:
 * If Neutral then Hit > Sad
 * If Sad then Hit > Set Protrusion 0  
   
+Health:  
 * If HP Min & Hit = Set Shape 0 (dead)
 * If HP Max & Hits enemy > get bigger
 
