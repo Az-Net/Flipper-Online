@@ -68,7 +68,7 @@ When cells are interacting, their values are copied to a matrix array for pre-pr
 # Cell Processing 
 
 At the most basic level, cells follow a simple roshambo model of interaction.  
-○ > △ > □  
+○ -> △ -> □  
 This remains true of both the Shape and Protrusion of each cell interaction.  
 The smallest cells out-speed the largest cells. The medium-sized cells can out-speed the smallest cells or largest cells.  
 Mood, Size, Protrusion and Health are all modifiable values: they change during cell interaction.  
