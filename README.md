@@ -70,10 +70,10 @@ When cells are interacting, their values are copied to a matrix array for pre-pr
 At the most basic level, cells follow a simple roshambo model of interaction.  
 ○ -> △ -> □  
 This remains true of both the Shape and Protrusion of each cell interaction.  
-The smallest cells out-speed the largest cells. The medium-sized cells can out-speed the smallest cells or largest cells.  
+Smaller cells out-speed larger cells.  
 Mood, Size, Protrusion and Health are all modifiable values: they change during cell interaction.  
 If a Bit-Value for a Shape does not exist in the cell, it is considered dead (the same as a 0 Bit-Value being written).  
-The Shape and Protrusion of a cell can be set to 0. Any other Bit-Value in a cell that gets set to 0 will be reverted to its minimum value.  
+Both the Shape and the Protrusion of a cell can be set to 0. Any other Bit-Value in a cell that gets set to 0 will be reverted to its minimum value (ie. Small for Size).  
 
 # NOTE: FINISH THIS SECTION, ME
 First:  
