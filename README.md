@@ -93,6 +93,11 @@ Then:
 
 The only current user interactions involve editing the cells between grid combat, scanning them as they're cloning, and healing the currently scanned cell during combat.
 
+## Display
+
+The game does not need to be run with a GUI.  
+Cell interactions can be processed at the system level without drawing their interactions to the display.
+
 # Hardware Add-ons
 
 ### Malveke
