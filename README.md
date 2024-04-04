@@ -131,6 +131,19 @@ Cells compete on the matrix by randomly being scanned into existence (yada yada 
 When an enemy loses on the grid, their cell is copied to your data repository to be used in future battles, and a copy of the matrix at the time of completion is also saved.
 These matrices will be useful later (see [Online Multiplayer](#online-multiplayer))
 
+### Cell Grid Actions
+* Attack
+* Flee
+* Dodge
+* Move
+* Split (Copy Self)
+
+### User Actions
+• Upgrade
+• Heal
+• Scan
+
+
 ## Display 
 (WiP)
 
