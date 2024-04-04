@@ -83,6 +83,13 @@ Matrices can be processed two different ways:
 A matrix cell that references itself can loop or recurse.  
 Matrix cells that reference another matrix or themselves can be made to terminate when a cell Doesn't reference another matrix during the current or next parse.  
 
+Matrices have a unique format;
+* each vertical line is closed with [Square Brackets]
+* a pipe | separates each horizontal entry
+* spaces and line breaks are ignored
+
+Matrix files have no extension and share a folder with cells.
+
 [Example Matrices](https://github.com/Az-Net/Flipper-Online/blob/main/examples/example_matrix.md)
 
 # Cell Processing 
