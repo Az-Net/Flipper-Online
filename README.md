@@ -132,17 +132,15 @@ When an enemy loses on the grid, their cell is copied to your data repository to
 These matrices will be useful later (see [Online Multiplayer](#online-multiplayer))
 
 ### Cell Grid Actions
-* Attack
 * Flee
-* Dodge
 * Move
 * Split (Copy Self)
 
 ### User Actions
-• Upgrade
-• Heal
-• Scan
+* Heal
+* Scan
 
+See [Combat Matrix](#the-combat-matrix) for more.
 
 ## Display 
 (WiP)
