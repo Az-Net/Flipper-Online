@@ -28,24 +28,24 @@ Each hexadecimal bit value 0-F is only used once.
 The process of cell combat modifies the hexadecimal strings during interaction, eventually writing the 0 bit to Shape to denote that a cell is dead.  
 Reviving a cell simply involves editing its file to remove the 0 bit from its hexadecimal string and then setting a new shape bit value within the string.  
 
-|Bit|Use|
-|---|---|
+|Bit-Value|Use|Category|
+|---|---|---|
 | 0 | Null |
-| 1 |   |
-| 2 |   |
-| 3 |   |
-| 4 |   |
-| 5 |   |
-| 6 |   |
-| 7 |   |
-| 8 |   |
-| 9 |   |
-| A |   |
-| B |   |
-| C |   |
-| D |   |
-| E |   |
-| F |   |
+| 1 |   |Shape|
+| 2 |   |   |
+| 3 |   |   |
+| 4 |   |Protrusion|
+| 5 |   |   |
+| 6 |   |   |
+| 7 |Small|Size|
+| 8 |Medium|   |
+| 9 |Large|   |
+| A |   |Mood|
+| B |   |   |
+| C |   |   |
+| D |Min|Health|
+| E |Mid|   |
+| F |Max|   |
 
 
 
