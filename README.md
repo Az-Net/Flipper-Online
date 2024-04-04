@@ -7,6 +7,9 @@ Flipper Ønline (FØ /Eff:Null/)
 
 F0 is a complex cellular automata. Each Flipper Zero device acts as a self-contained digital entity with unique characteristics determined by hexadecimal code. This code influences the Flipper's appearance, mood, and stats. The game leverages these pre-programmed behaviors to create a world where Flippers interact with their environment and each other based on a set of rules. This rule-based system, combined with the Flipper's ability to access frequency interactions, hopes to achieve a level of autonomy that pushes the boundaries of traditional gaming experiences.
 
+Current implementation is at the firmware level.  
+Possibilities are being explored to compile as fap instead.
+
 # Design 
 
 The F0 entity is primarily designed using three layered components:
@@ -104,11 +107,14 @@ Cell interactions can be processed at the system level without drawing their int
 
 ### Pi 0
 
-# Online MMO Component
+# Local Multiplayer
 
-## Contacts
-## Server Connection
+### Contacts
+
+# Online Multiplayer
 ### Gameplay
+### Economy
+### Future Development
 
 # Contributing
 
