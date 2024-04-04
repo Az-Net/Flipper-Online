@@ -72,7 +72,7 @@ Cells on the matrix seek to copy themselves across each of the matrices, interac
 The matrix starts with one user cell and one enemy cell at either ends. Each cell is processed simultaneously, and they may copy themselves to any of the open slots in the matrix adjacent to to the cells current slot.  
 If two competing cells seek to occupy the same matrix slot, they are processed against one another until one cell dies.  
 The matrix continues processing until either the user cell shape or the enemy cell shape is the only one occupying the matrix.  
-Users can set one cell of each shape for selection during automatic battles.
+Users can set one cell of each shape for selection during automatic battles.  
 See [Core Gameplay Loop](#core-gameplay-loop) for more 
 
 # Cell Processing 
