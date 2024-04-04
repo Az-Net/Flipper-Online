@@ -104,6 +104,12 @@ Cell interactions can be processed at the system level without drawing their int
 
 ### Pi 0
 
+# Online MMO Component
+
+## Contacts
+## Server Connection
+### Gameplay
+
 # Contributing
 
 ## License 
