@@ -27,7 +27,7 @@ __0x157AF__
 __0x349BE__  
 __0x208A0__  
 
-(Remember: each Bit-Value category can only be used once. Refer to the [Bit-Value Array](## "Bit-Value Array")
+(Remember: each Bit-Value category can only be used once. Refer to the [Bit-Value Array](#bit-value-array)
  below for updated firmware rules.)
 
 ## Bit-Value Array
@@ -55,7 +55,7 @@ Reviving a cell simply involves editing its file to remove the 0 bit from its he
 | E |Mid| * |
 | F |Max| * |
 
-For more information, refer to [!](Cell Processing)
+For more information, refer to [Cell Processing](#cell-processing)
 
 
 ## The Combat Matrix
