@@ -20,7 +20,14 @@ The application reads and writes data to- and from- bin files and interprets the
 
 Each cell exists as a hexadecimal string within a plaintext file, with no extension. This means that you can use the existing text viewer and hexadecimal editor apps on the Flipper Zero for modifying cells.  
 Each cell consists of a Shape, a Protrusion of a shape, a Health value, a Size, and a Mood value, creating a layered, fractal-like entity.  
-There are three options for each attribute, and each attribute influences the others during cell interaction.
+There are three options for each attribute, and each attribute influences the others during cell interaction.  
+
+### Example Cell Strings
+__0x157AF__  
+__0x349BE__  
+__0x208A0__  
+
+(Remember: each Bit-Value category can only be used once. Refer to the Bit-Value Array below for updated firmware rules.)
 
 ## The Bit-Value Array
 
@@ -48,18 +55,7 @@ Reviving a cell simply involves editing its file to remove the 0 bit from its he
 | F |Max| * |
 
 
-
-
-
-
-
-
-
-
-
-
-
 ## The Combat Matrix
 
-When cells are interacting, their values are copied to a matrix array for pre-processing, and for simultaneously processing multiple interactions per clock cycle.  
+When cells are interacting, their values are copied to a matrix array for pre-processing, and for simultaneously processing multiple interactions across numerous cells per clock cycle.  
 
