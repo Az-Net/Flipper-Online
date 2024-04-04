@@ -27,9 +27,9 @@ __0x157AF__
 __0x349BE__  
 __0x208A0__  
 
-(Remember: each Bit-Value category can only be used once. Refer to the Bit-Value Array below for updated firmware rules.)
+(Remember: each Bit-Value category can only be used once. Refer to the [](Bit-Value Array) below for updated firmware rules.)
 
-## The Bit-Value Array
+## Bit-Value Array
 
 Each hexadecimal bit value 0-F is only used once.  
 The process of cell combat modifies the hexadecimal strings during interaction, eventually writing the 0 bit to Shape to denote that a cell is dead.  
@@ -54,8 +54,11 @@ Reviving a cell simply involves editing its file to remove the 0 bit from its he
 | E |Mid| * |
 | F |Max| * |
 
+For more information, refer to [](Cell Processing)
+
 
 ## The Combat Matrix
 
 When cells are interacting, their values are copied to a matrix array for pre-processing, and for simultaneously processing multiple interactions across numerous cells per clock cycle.  
 
+# Cell Processing 
