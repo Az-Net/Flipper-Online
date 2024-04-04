@@ -155,10 +155,13 @@ The game does not need to be run with a GUI.
 Cell interactions can be processed at the system level without drawing their interactions to the display.
 
 # Hardware Add-ons
+* Shop
 
-### * Malveke
+### Malveke
+* Gameboy Cartridges
 
-### * Pi 0
+### Pi 0
+* LLM Integration
 
 # Local Multiplayer
 
