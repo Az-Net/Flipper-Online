@@ -176,4 +176,6 @@ Cell interactions can be processed at the system level without drawing their int
 
 # Contributing
 
+Currently contributors must visit our GitHub [organization page](https://github.com/Az-Net) and join our discord server, after reading our rules.
+
 ## License 
