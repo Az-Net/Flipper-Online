@@ -157,8 +157,13 @@ Cell interactions can be processed at the system level without drawing their int
 # Hardware Add-ons
 * Shop
 
+### Video Game Module
+* Gyro Step-Counting
+* Raspi 2040 Firmware Integration
+
 ### Malveke
-* Gameboy Cartridges
+* Gameboy Cartridge Reading & Writing
+* Serial Data Transfer via Link Cable
 
 ### Pi 0
 * LLM Integration
