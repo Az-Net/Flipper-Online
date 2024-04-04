@@ -140,6 +140,7 @@ Cell interactions can be processed at the system level without drawing their int
 ### Gameplay
 ### Economy
 ### Future Development
+* Expand single-bit values 0-F to 2-bit values 0-FF
 
 # Contributing
 
