@@ -25,8 +25,8 @@ There are three options for each attribute, and each attribute influences the ot
 ## The Bit-Value Array
 
 Each hexadecimal bit value 0-F is only used once.  
-The process of cell combat modifies the hexadecimal strings during interaction, eventually writing the F bit to note that a cell is dead.  
-Reviving a cell simply involves editing its file to remove the F bit from its hexadecimal string.  
+The process of cell combat modifies the hexadecimal strings during interaction, eventually writing the 0 bit to Shape to denote that a cell is dead.  
+Reviving a cell simply involves editing its file to remove the 0 bit from its hexadecimal string and then setting a new shape bit value within the string.  
 
 ## The Combat Matrix
 
