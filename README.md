@@ -61,7 +61,7 @@ Reviving a cell simply involves editing its file to remove the 0 bit from its he
 For more information, refer to [Cell Processing](#cell-processing)
 
 
-## The Combat Matrix
+## The Combat Matrix (WiP)
 
 When cells are interacting, their values are copied to a matrix array for pre-processing, and for simultaneously processing multiple interactions across numerous cells per clock cycle.  
 
@@ -77,7 +77,7 @@ Mood, Size, Protrusion and Health are all modifiable values: they change during 
 If a Bit-Value for a Shape does not exist in the cell, it is considered dead (the same as a 0 Bit-Value being written).  
 Both the Shape and the Protrusion of a cell can be set to 0. Any other Bit-Value in a cell that gets set to 0 will be reverted to its minimum value (ie. Small for Size).  
 
-# NOTE: FINISH THIS SECTION, ME
+## Cell Matrix Logic (WiP)
 First:  
 * Compare Speed > Smaller Moves Sooner  
 * Process Protrusion > Loser Changes Form  
@@ -94,7 +94,7 @@ Then:
 * If HP Min & Hit = Set Shape 0 (dead)
 * If HP Max & Hits enemy > get bigger
 
-# Core Gameplay Loop
+# Core Gameplay Loop (WiP)
 
 The only current user interactions involve editing the cells between grid combat, scanning them as they're cloning on the matrix, and healing the currently scanned cell during combat.  
 
@@ -102,7 +102,7 @@ Cells compete on the matrix by randomly being scanned into existence (yada yada 
 When an enemy loses on the grid, their cell is copied to your data repository to be used in future battles, and a copy of the matrix at the time of completion is also saved.
 These matrices will be useful later.
 
-## Display
+## Display (WiP)
 
 The game does not need to be run with a GUI.  
 Cell interactions can be processed at the system level without drawing their interactions to the display.
