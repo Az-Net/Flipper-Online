@@ -93,7 +93,7 @@ If a Bit-Value for a Shape does not exist in the cell, it is considered dead (th
 Both the Shape and the Protrusion of a cell can be set to 0. Any other Bit-Value in a cell that gets set to 0 will be reverted to its minimum value (ie. Small for Size).  
 
 ## Cell Matrix Logic
-(WiP)
+(WiP)  
 First:  
 * Compare Speed > Smaller Moves Sooner  
 * Process Protrusion > Loser Changes Form  
@@ -119,7 +119,8 @@ Cells compete on the matrix by randomly being scanned into existence (yada yada 
 When an enemy loses on the grid, their cell is copied to your data repository to be used in future battles, and a copy of the matrix at the time of completion is also saved.
 These matrices will be useful later.
 
-## Display (WiP)
+## Display 
+(WiP)
 
 The game does not need to be run with a GUI.  
 Cell interactions can be processed at the system level without drawing their interactions to the display.
