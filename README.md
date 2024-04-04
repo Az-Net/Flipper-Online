@@ -21,7 +21,7 @@ The application reads and writes data to- and from- bin files and interprets the
 
 ## Cells
 
-Each cell exists as a hexadecimal string within a plaintext file, with no extension. This means that you can use the existing text viewer and hexadecimal editor apps on the Flipper Zero for modifying cells.  
+Each cell exists as a 5-bit hexadecimal string within a plaintext file, with no extension. This means that you can use the existing text viewer and hexadecimal editor apps on the Flipper Zero for modifying cells.  
 Each cell consists of a Shape, a Protrusion of a shape, a Health value, a Size, and a Mood value, creating a layered, fractal-like entity.  
 There are three options for each attribute, and each attribute influences the others during cell interaction, for a total of 5^3+1 possible cell states at inception.  
 
@@ -35,9 +35,10 @@ __0x208A0__
 
 ## Bit-Value Array
 
-Each hexadecimal bit value 0-F is only used once.  
+Each hexadecimal bit value 0-F is only used once, and each category of value can only be used one time per cell.  
 The process of cell combat modifies the hexadecimal strings during interaction, eventually writing the 0 bit to Shape to denote that a cell is dead.  
 Reviving a cell simply involves editing its file to remove the 0 bit from its hexadecimal string and then setting a new shape bit value within the string.  
+You can also choose to reset or edit the mood, size, protrusion and health values to anything you want.  
 
 |Bit-Value|Use|Category|
 |---|---|---|
@@ -61,11 +62,18 @@ Reviving a cell simply involves editing its file to remove the 0 bit from its he
 For more information, refer to [Cell Processing](#cell-processing)
 
 
-## The Combat Matrix (WiP)
+## The Combat Matrix
+(WiP)
 
 When cells are interacting, their values are copied to a matrix array for pre-processing, and for simultaneously processing multiple interactions across numerous cells per clock cycle.  
 
-Cells on the matrix seek to copy themselves across each of the matrices, interacting with- and consuming enemy cells as they go.
+Cells on the matrix seek to copy themselves across each of the matrices, interacting with- and consuming enemy cells as they go.  
+
+The matrix starts with one user cell and one enemy cell at either ends. Each cell is processed simultaneously, and they may copy themselves to any of the open slots in the matrix adjacent to to the cells current slot.  
+If two competing cells seek to occupy the same matrix slot, they are processed against one another until one cell dies.  
+The matrix continues processing until either the user cell shape or the enemy cell shape is the only one occupying the matrix.  
+Users can set one cell of each shape for selection during automatic battles.
+See [Core Gameplay Loop](#core-gameplay-loop) for more 
 
 # Cell Processing 
 
@@ -77,7 +85,8 @@ Mood, Size, Protrusion and Health are all modifiable values: they change during 
 If a Bit-Value for a Shape does not exist in the cell, it is considered dead (the same as a 0 Bit-Value being written).  
 Both the Shape and the Protrusion of a cell can be set to 0. Any other Bit-Value in a cell that gets set to 0 will be reverted to its minimum value (ie. Small for Size).  
 
-## Cell Matrix Logic (WiP)
+## Cell Matrix Logic
+(WiP)
 First:  
 * Compare Speed > Smaller Moves Sooner  
 * Process Protrusion > Loser Changes Form  
@@ -94,7 +103,8 @@ Then:
 * If HP Min & Hit = Set Shape 0 (dead)
 * If HP Max & Hits enemy > get bigger
 
-# Core Gameplay Loop (WiP)
+# Core Gameplay Loop
+(WiP)
 
 The only current user interactions involve editing the cells between grid combat, scanning them as they're cloning on the matrix, and healing the currently scanned cell during combat.  
 
