@@ -155,11 +155,11 @@ The game does not need to be run with a GUI.
 Cell interactions can be processed at the system level without drawing their interactions to the display.
 
 # Recommended Applications
-*
-*
-*
-*
-*
+* Text Viewer
+* Hex Viewer
+* Hex Editor
+* Multi Converter
+* Programmer Calculator
 
 # Hardware Add-ons
 * Shop
