@@ -104,7 +104,7 @@ Both the Shape and the Protrusion of a cell can be set to 0. Any other Bit-Value
 
 ## Cell Matrix Logic
 (WiP)  
-Matrix Logic is liable to constant optimization and iteration.  
+*Matrix Logic is liable to constant optimization and iteration.*  
 
 First:  
 * Compare Speed > Smaller Moves Sooner  
