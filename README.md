@@ -13,7 +13,7 @@ F0 is a complex [cellular automata](https://en.m.wikipedia.org/wiki/Cellular_aut
 # Design 
 
 The F0 entity is primarily designed using three layered components:
-* a Bit-Value array stores modifiable firmware interactions
+* a [Bit-Value array](https://github.com/Az-Net/Flipper-Online/blob/main/bit-value_array) stores modifiable firmware interactions
 * plaintext bin files with no extension containing hexadecimal strings act as the core cells 
 * a matrix array acts as both the combat grid and as the next evolution in our project, combining and processing individual cell interactions to create a more capable and unique, emergent entity.  
 
