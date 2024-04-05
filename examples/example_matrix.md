@@ -1,3 +1,5 @@
+Spaces & line breaks are ignored, used for formatting.
+
 # Example 1 
 (filenames, no formatting)  
 [001      | 003 | 004]
