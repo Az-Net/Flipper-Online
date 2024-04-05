@@ -164,15 +164,15 @@ Cell interactions can be processed at the system level without drawing their int
 # Hardware Add-ons
 * Shop
 
-### Video Game Module
+### [Video Game Module](https://shop.flipperzero.one/products/video-game-module-for-flipper-zero)
 * Gyro Step-Counting
 * Raspi 2040 Firmware Integration
 
-### Malveke
+### [Malveke](https://www.tindie.com/products/efuentealba/malveke-game-boy-tools-for-flipper-zero/)
 * Gameboy Cartridge Reading & Writing
 * Serial Data Transfer via Link Cable
 
-### Pi 0
+### [Pi 0](https://www.raspberrypi.com/products/raspberry-pi-zero/)
 * LLM Integration
 
 # Local Multiplayer  
