@@ -183,8 +183,8 @@ Currently contributors must visit our GitHub [organization page](https://github.
 
 ## License 
 
-F0 Licensing
-Copyright 2019-2020
+F0 Licensing  
+2024
 
 Licensed under the Apache License, Version 2.0 (the "License") modified with Commons Clause
 Restriction; you may not use this file except in compliance with the License. You may obtain a
