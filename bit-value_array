@@ -1,0 +1,19 @@
+
+|Value|Use|Category|Rule|
+|---|---|---|---|
+| 0 |Null|Null|Null|
+| 1 |○|Shape|Null|
+| 2 |△|Shape|Null|
+| 3 |□|Shape|Null|
+| 4 |Bump (○)|Protrusion|Null|
+| 5 |Spike (△)|Protrusion|Null|
+| 6 |Block (□)|Protrusion|Null|
+| 7 |Small|Size|Null|
+| 8 |Medium|Size|Null|
+| 9 |Large|Size|Null|
+| A |•⌣•|Mood|Null|
+| B |•_•|Mood|Null|
+| C |•︵•|Mood|Null|
+| D |Min|Health|Null|
+| E |Mid|Health|Null|
+| F |Max|Health|Null|
