@@ -1,1 +1,4 @@
-Assets
+Assets Folder
+* Logo
+* UI
+* Icons
