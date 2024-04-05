@@ -8,7 +8,7 @@ App(
     fap_icon="F0_logo.png",
     fap_icon_assets="assets",
     fap_category="F0",
-    fap_description="",
+    fap_description=" A Flipper Zero Multiplayer Cellular Automata lnspired by V-Pets",
     fap_author="~Az:Net//",
     fap_weburl="https://github.com/Az-Net/Flipper-Online",
     fap_version="0.0"
