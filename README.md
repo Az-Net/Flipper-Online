@@ -63,7 +63,7 @@ For more information, refer to [Cell Processing](#cell-processing)
 
 
 ## The Combat Matrix
-(WiP)
+(Work In-Progress)
 
 When cells are interacting, their values are copied to a matrix array for pre-processing, and for simultaneously processing multiple interactions across numerous cells per clock cycle.  
 
@@ -103,7 +103,7 @@ If a Bit-Value for a Shape does not exist in the cell, it is considered dead (th
 Both the Shape and the Protrusion of a cell can be set to 0. Any other Bit-Value in a cell that gets set to 0 will be reverted to its minimum value (ie. Small for Size).  
 
 ## Cell Matrix Logic
-(WiP)  
+(Work In-Progress)  
 *Matrix Logic is liable to constant optimization and iteration.*  
 
 First:  
@@ -124,7 +124,7 @@ Health:
 * If HP Max & Hits enemy > get bigger
 
 # Core Gameplay Loop  
-(WiP)
+(Work In-Progress)
 
 The only current user interactions involve editing the cells between grid combat, scanning them as they're cloning on the matrix, and healing the currently scanned cell during combat.  
 
@@ -149,7 +149,7 @@ When you scan a cell on the matrix, information displays detailing the current h
 See [Combat Matrix](#the-combat-matrix) for more.
 
 ## Display 
-(WiP)
+(Work In-Progress)
 
 The game does not need to be run with a GUI.  
 Cell interactions can be processed at the system level without drawing their interactions to the display.
@@ -175,14 +175,19 @@ Cell interactions can be processed at the system level without drawing their int
 ### Pi 0
 * LLM Integration
 
-# Local Multiplayer
+# Local Multiplayer  
+(Work In-Progress)
 
 ### Contacts
 
 # Online Multiplayer
 ### Gameplay
-### Economy
-### Future Development
+* Desktop Applications
+* Connecting
+* Gameplay Loop
+### Economy  
+
+## Future Development
 * Expand single-bit values 0-F to 2-bit values 0-FF
 * Expand 3x3 Matrix to layered 9x9 variant
 * Layered Matrix Processing Logic
