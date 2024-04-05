@@ -5,7 +5,7 @@ App(
     entry_point="",
     requires=["gui"],
     stack_size=2 * 1024,
-    fap_icon="F0_logo.png",
+    fap_icon="f0_10px.png",
     fap_icon_assets="assets",
     fap_category="F0",
     fap_description=" A Flipper Zero Multiplayer Cellular Automata lnspired by V-Pets",
