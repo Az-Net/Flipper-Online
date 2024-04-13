@@ -150,6 +150,31 @@ When you scan a cell on the matrix, information displays detailing the current h
 
 See [Combat Matrix](#the-combat-matrix) for more.
 
+# Folder File Structure
+It is expected that all game data resides in /ext/apps/F0  
+
+The initial file structure is as follows:  
+/ext/apps/F0/  
+
+* start.js  
+
+/contacts/  
+
+/rules/  
+* bit-value_array
+* matrix_array  
+
+/scripts/  
+* scan.js
+* alert.js
+* grid.js
+  
+001
+```
+0x00000
+```
+
+
 ## Display 
 (Work In-Progress)
 
