@@ -206,6 +206,11 @@ Cell interactions can be processed at the system level without drawing their int
 (Work In-Progress)
 
 ### Contacts
+### Trading
+### PvP
+### Hardware Interfacing
+### Custom Games & Rules
+
 
 # Online Multiplayer
 ### Gameplay
