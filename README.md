@@ -3,7 +3,7 @@ Flipper Ønline (FØ /Eff:Null/)
 
 ![](https://github.com/Az-Net/Flipper-Online/blob/main/assets/F0.gif)
 
-## A [Flipper Zero](https://github.com/flipperdevices) Multiplayer Game Inspired by Digimon &amp; Megaman V-Pets
+## A [Flipper Zero](https://github.com/flipperdevices) Multiplayer Game Inspired by Digimon, Megaman and Scannerz V-Pets
 
 ### *This Project is Still in Early Development*
 
