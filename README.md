@@ -201,7 +201,8 @@ Cell interactions can be processed at the system level without drawing their int
 
 ### [F-Com](https://github.com/TylerWilley/flipper-f-com) 
 
-### [Pi 0](https://www.raspberrypi.com/products/raspberry-pi-zero/) (Cancelled until further notice due to power concerns)
+### [Pi 0](https://www.raspberrypi.com/products/raspberry-pi-zero/)  
+(Cancelled until further notice due to power concerns)
 * LLM Integration
 
 # Local Multiplayer  
