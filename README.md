@@ -265,3 +265,5 @@ Any license notice or attribution required by the License must also include this
 License Condition notice.  
 
 Tl:Dr; Do whatever you want as long as you do it for free.
+
+![](https://github.com/Az-Net/Az-Net/blob/main/Pictures/Inspiration%20-%20Childrens%20War%20Game.png)
