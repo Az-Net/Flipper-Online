@@ -199,7 +199,9 @@ Cell interactions can be processed at the system level without drawing their int
 * Gameboy Cartridge Reading & Writing
 * Serial Data Transfer via Link Cable
 
-### [Pi 0](https://www.raspberrypi.com/products/raspberry-pi-zero/)
+### [F-Com](https://github.com/TylerWilley/flipper-f-com) 
+
+### [Pi 0](https://www.raspberrypi.com/products/raspberry-pi-zero/) (Cancelled until further notice due to power concerns)
 * LLM Integration
 
 # Local Multiplayer  
