@@ -17,7 +17,7 @@ Current Scanner Approach (Brainstorming):
    - Prioritize the analysis on these essential features to maximize the efficiency of your limited computational resources.
 
 4. **Streamlined Processing Pipeline**:
-   - Design a streamlined processing pipeline that efficiently handles incoming data, performs necessary computations within the preset array, and outputs relevant alerts or summaries.
+   - Design a streamlined processing pipeline that efficiently handles incoming data, performs necessary computations within the preset array, and <s> outputs relevant alerts or summaries. </s>
    - Minimize unnecessary computations or data transformations that could consume additional processing power.
 
 5. **Optimized Data Sampling**:
