@@ -42,6 +42,7 @@ Here's a breakdown of both approaches:
 Carrier First:  
 
 Capture: This approach focuses on capturing only the carrier information (specific characteristic of the anomaly) first.  
+
 Advantages:  
 * Efficiency: Saves processing power by focusing only on potential anomalies. 
 * Faster Detection: May identify anomalies quicker if the carrier is a strong indicator.  
@@ -53,6 +54,7 @@ Disadvantages:
 Carrier Last:  
 
 Record all prior: This approach records all data points before identifying the carrier (anomaly signature).  
+
 Advantages:  
 * More Context: Provides a richer picture for anomaly identification.
 * Fewer False Positives: Context helps to differentiate true anomalies from normal variations.  
@@ -60,6 +62,8 @@ Advantages:
 Disadvantages:  
 * Processing Cost: Requires storing and analyzing all data, which can be resource-intensive.
 * Delayed Detection: Anomaly identification might be slower compared to carrier-first approach.  
+
+###s Solution
 
 * **Initial Filtering:** Implement a carrier-first approach for known artificial signatures (e.g., specific malware patterns) to quickly filter them out and reduce processing overhead.
 * **Contextual Analysis:**  For the remaining data, including natural anomalies, employ a carrier-last approach. Capture preceding data points for contextual analysis using techniques like:
