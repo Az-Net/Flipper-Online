@@ -28,8 +28,8 @@ Current Scanner Approach (Brainstorming):
    - Incrementally develop and test your algorithm on sample datasets to ensure it meets performance requirements and effectively detects anomalies.
    - Fine-tune parameters and algorithms based on empirical observations and feedback from domain experts.
 
-7. **Integration with Alerting Mechanisms**:
-   - Implement robust alerting mechanisms that prioritize critical anomalies and ensure timely notifications, considering the limitations of real-time processing on your system.
+<s> 7. **Integration with Alerting Mechanisms**:
+   - Implement robust alerting mechanisms that prioritize critical anomalies and ensure timely notifications, considering the limitations of real-time processing on your system. </s>
 
 
 ___
