@@ -45,6 +45,7 @@ Capture: This approach focuses on capturing only the carrier information (specif
 Advantages:  
 * Efficiency: Saves processing power by focusing only on potential anomalies. 
 * Faster Detection: May identify anomalies quicker if the carrier is a strong indicator.  
+
 Disadvantages:  
 * Missing Context: Might miss subtle anomalies that rely on preceding data points.
 * False Positives: Carriers alone might not be fully unique, leading to false flags.
@@ -55,6 +56,7 @@ Record all prior: This approach records all data points before identifying the c
 Advantages:  
 * More Context: Provides a richer picture for anomaly identification.
 * Fewer False Positives: Context helps to differentiate true anomalies from normal variations.  
+
 Disadvantages:  
 * Processing Cost: Requires storing and analyzing all data, which can be resource-intensive.
 * Delayed Detection: Anomaly identification might be slower compared to carrier-first approach.  
