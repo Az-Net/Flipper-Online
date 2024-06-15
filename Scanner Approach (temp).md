@@ -63,7 +63,7 @@ Disadvantages:
 * Processing Cost: Requires storing and analyzing all data, which can be resource-intensive.
 * Delayed Detection: Anomaly identification might be slower compared to carrier-first approach.  
 
-###s Solution
+#### Solution
 
 * **Initial Filtering:** Implement a carrier-first approach for known artificial signatures (e.g., specific malware patterns) to quickly filter them out and reduce processing overhead.
 * **Contextual Analysis:**  For the remaining data, including natural anomalies, employ a carrier-last approach. Capture preceding data points for contextual analysis using techniques like:
