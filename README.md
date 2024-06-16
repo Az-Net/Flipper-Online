@@ -233,7 +233,7 @@ Cell interactions can be processed at the system level without drawing their int
 # Contributing
 
 Currently contributors must visit our GitHub [organization page](https://github.com/Az-Net) and request to join our ~/ server.  
-File an issue request there to be given a link to the sign up form.
+Send an email to the address listed there to be given a link to the sign up form.
 
 ## License 
 
