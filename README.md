@@ -128,7 +128,7 @@ Health:
 
 ![](https://github.com/Az-Net/Flipper-Online/blob/main/examples/UI%20Example.png)
 
-The only current user interactions involve editing the cells between grid combat, scanning them as they're cloning on the matrix, and healing the currently scanned cell during combat.  
+The current user interactions involve editing the cells between grid combat, scanning them as they're cloning on the matrix, scanning NFC cards for effects during combat, and healing the currently scanned cell during combat.  
 
 Cells compete on the matrix by randomly being scanned into existence [(yada yada this part for now. subghz or gyro step scanning.)](https://github.com/Az-Net/Flipper-Online/blob/main/Scanner%20Approach%20%28temp%29.md)  
 When an enemy loses on the grid, their cell is copied to your data repository to be used in future battles, and a copy of the matrix at the time of completion is also saved.
@@ -147,6 +147,8 @@ Cell tries to copy itself to an adjacent slot before or after interaction
 You may heal each cell once per grid combat. 
 * Scan  
 When you scan a cell on the matrix, information displays detailing the current health, mood, size, shape and protrusion on that cell. Only one cell may be displayed at a time, and you may only heal a currently-scanned cell.
+* NFC  
+You can scan certain NFC protocols to add power ups and new effects to your cells abilities on grid.
 
 See [Combat Matrix](#the-combat-matrix) for more.
 
