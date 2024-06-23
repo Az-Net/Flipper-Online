@@ -184,6 +184,7 @@ The game does not need to be run with a GUI.
 Cell interactions can be processed at the system level without drawing their interactions to the display.
 
 # Recommended Applications
+[Star List of Recommendations](https://github.com/stars/Az-Neter/lists/cfw)  
 * Text Viewer
 * Hex Viewer
 * Hex Editor
