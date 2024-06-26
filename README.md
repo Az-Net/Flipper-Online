@@ -153,9 +153,10 @@ You can scan certain NFC protocols to add power ups and new effects to your cell
 See [Combat Matrix](#the-combat-matrix) for more.
 
 # Folder File Structure
-It is expected that all game data resides in /ext/apps/F0  
 
 The current file structure is as follows:  
+
+~  
 /ext/apps/F0/  
 
 * run_f0.js  
@@ -169,7 +170,8 @@ The current file structure is as follows:
 * alert.js
 * grid.js
   
-/ext/app_data/f0/  
+~  
+/ext/apps_data/f0/  
 
 /cells/  
 001  
@@ -178,8 +180,10 @@ The current file structure is as follows:
 ```  
 
 /matrix/  
+001
 
-/contacts/  
+~  
+/ext/contacts/  
 
 
 ## Display 
