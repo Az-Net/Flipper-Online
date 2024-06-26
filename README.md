@@ -155,12 +155,10 @@ See [Combat Matrix](#the-combat-matrix) for more.
 # Folder File Structure
 It is expected that all game data resides in /ext/apps/F0  
 
-The initial file structure is as follows:  
+The current file structure is as follows:  
 /ext/apps/F0/  
 
-* start.js  
-
-/contacts/  
+* run_f0.js  
 
 /rules/  
 * bit-value_array
@@ -171,10 +169,17 @@ The initial file structure is as follows:
 * alert.js
 * grid.js
   
-001
+/ext/app_data/f0/  
+
+/cells/  
+001  
 ```
 0x00000
-```
+```  
+
+/matrix/  
+
+/contacts/  
 
 
 ## Display 
