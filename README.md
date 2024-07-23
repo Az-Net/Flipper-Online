@@ -236,7 +236,7 @@ This is the primary communication platform for all things Flipper 0nline! Early 
 Discuss with an admin if you want to bridge this room into your services!
 
 ### Gameplay
-* Desktop Applications
+* [Desktop Applications](https://github.com/Az-Net/Unified-Theory/blob/main/Toolkit.md)
 * Connecting
 * Gameplay Loop
 ### Economy  
