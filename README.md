@@ -228,6 +228,10 @@ Cell interactions can be processed at the system level without drawing their int
 
 
 # Online Multiplayer
+
+## Community Comms
+[Matrix Chat Server](https://matrix.to/#/#f0:matrix.org)
+
 ### Gameplay
 * Desktop Applications
 * Connecting
@@ -242,8 +246,7 @@ Cell interactions can be processed at the system level without drawing their int
 
 # Contributing
 
-Currently contributors must visit our GitHub [organization page](https://github.com/Az-Net) and request to join our ~/ server.  
-Send an email to the address listed there to be given a link to the sign up form.
+Join the public chatroom listed under [Community Comms]() to join our team!
 
 ## License 
 
