@@ -230,7 +230,10 @@ Cell interactions can be processed at the system level without drawing their int
 # Online Multiplayer
 
 ## Community Comms
-[Matrix Chat Server](https://matrix.to/#/#f0:matrix.org)
+* [Matrix Chat Server](https://matrix.to/#/#f0:matrix.org)
+
+This is the primary communication platform for all things Flipper 0nline! Early Development, news and community games will be posted here.  
+Discuss with an admin if you want to bridge this room into your services!
 
 ### Gameplay
 * Desktop Applications
@@ -246,7 +249,7 @@ Cell interactions can be processed at the system level without drawing their int
 
 # Contributing
 
-Join the public chatroom listed under [Community Comms]() to join our team!
+Join the public chatroom listed under [Community Comms](https://github.com/Az-Net/Flipper-Online#community-comms) to join our team!
 
 ## License 
 
