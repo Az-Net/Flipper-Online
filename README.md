@@ -1,3 +1,9 @@
+# This project is currently under heavy redesign.
+## Over the coming weeks and months, the scope is going to be expanding massively, and much of the old work is going to be discarded.
+
+### Flipper Online is no longer going to be a game isolated to Flipper Devices, but will use entire operating systems as a competitive battleground for user player-versus-player interactions.
+
+
 # Flipper-Online
 Flipper Ønline (FØ /Eff:Null/)   
 
