@@ -38,6 +38,13 @@ FØ envisions a competitive environment where players utilize their Flipper Zero
 Flipper Ønline is embarking on an ambitious journey to redefine the boundaries of Flipper Zero gaming. By leveraging the power of virtualized operating systems and drawing inspiration from beloved franchises, FØ aims to create a unique and engaging player-versus-player experience that empowers users to cultivate, train, and battle their own personalized digital companions. As the project progresses, the community's involvement will be crucial in shaping the future of this exciting new gaming paradigm. 
 
 
+**Ethical Considerations:**
+
+* Avoiding Manipulation: FØ should not be designed to manipulate or coerce users into changing their behavior against their will. The platform should empower users to make their own choices and take responsibility for their actions.
+* Respecting Individual Differences: FØ should recognize and respect individual differences in values, beliefs, and goals. The platform should not impose a singular vision of personal growth or ethical development on its users.
+* Maintaining Transparency: The mechanisms by which FØ facilitates interactions should be transparent and understandable to users, allowing them to make informed decisions about their engagement with the platform.
+
+
 
 
 # Old Project Info
