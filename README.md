@@ -4,6 +4,44 @@
 ### Flipper Online is no longer going to be a game isolated to Flipper Devices, but will use entire operating systems as a competitive battleground for user player-versus-player interactions.
 
 
+## Flipper Ønline (FØ) – Evolving Beyond Automata:
+
+Flipper Ønline (FØ /Eff:Null/) is undergoing a significant transformation, expanding its scope from a Flipper-centric game to a full-fledged player-versus-player (PvP) experience leveraging entire operating systems as battlegrounds. While the original cellular automata concept is being discarded, the core principles of Digimon, Megaman, and Scannerz V-Pets continue to inspire its development.
+
+**The New Vision:**
+
+FØ envisions a competitive environment where players utilize their Flipper Zero devices as "Digivices" to manage and control their unique digital entities within dedicated operating system instances. These entities, previously represented as simple cells, will evolve into more complex and autonomous agents, battling for dominance within virtualized environments.
+
+**Key Elements of the Redesigned FØ:**
+
+* **Operating Systems as Battlegrounds:** Instead of a self-contained game on the Flipper, FØ will utilize entire operating systems (potentially Windows 2000 Datacenter or similar) as the arena for player interactions. This provides a vastly expanded and dynamic environment for battles and strategic gameplay.
+* **Flipper Zero as the Digivice:** The Flipper Zero retains its role as the primary interface and management tool for each player's digital entity. Its diverse functionalities (HID scripting, Sub-GHz communication, U2F, Bluetooth, USB storage, etc.) will be leveraged for interacting with and controlling the virtualized environment.
+* **Evolving Digital Entities:** The concept of simple hexadecimal-based cells is being replaced by more sophisticated digital entities. These entities will possess unique characteristics, abilities, and evolutionary paths, inspired by the Digimon franchise. They will be capable of learning, adapting, and potentially even developing personalities through player interactions.
+* **Player-versus-Player Combat:** FØ will focus on competitive PvP gameplay, where players pit their digital entities against each other in strategic battles within the virtualized operating system environments. 
+* **Online Multiplayer:**  The game will incorporate online multiplayer functionalities, allowing players to connect and compete with others remotely. This will involve a dedicated server infrastructure and potentially a community-driven ecosystem for sharing entities, strategies, and custom game rules.
+
+**Retained Elements and Inspirations:**
+
+* **Digimon, Megaman, and Scannerz V-Pets:** The core inspiration from these franchises remains, particularly the concepts of digital companions, evolution, and strategic battles.
+* **Flipper Zero's Versatility:** The Flipper Zero's diverse hardware and software capabilities will be central to the gameplay experience, providing a unique and engaging way to interact with the digital entities and the virtualized environments.
+
+**Future Development:**
+
+* **Expanding Entity Complexity:**  The design of the digital entities will evolve beyond simple hexadecimal strings, potentially incorporating more sophisticated data structures and algorithms to govern their behavior and evolution.
+* **Developing the Combat System:** The combat system will be refined to provide a strategic and engaging PvP experience within the operating system environments.
+* **Building the Online Infrastructure:** A robust server infrastructure and client-side applications will be developed to support online multiplayer functionalities, including matchmaking, communication, and data synchronization.
+* **Creating a Community Ecosystem:** FØ will encourage community involvement through the development of tools, resources, and platforms for sharing custom entities, strategies, and game modifications.
+
+
+**In Conclusion:**
+
+Flipper Ønline is embarking on an ambitious journey to redefine the boundaries of Flipper Zero gaming. By leveraging the power of virtualized operating systems and drawing inspiration from beloved franchises, FØ aims to create a unique and engaging player-versus-player experience that empowers users to cultivate, train, and battle their own personalized digital companions. As the project progresses, the community's involvement will be crucial in shaping the future of this exciting new gaming paradigm. 
+
+
+
+
+# Old Project Info
+
 # Flipper-Online
 Flipper Ønline (FØ /Eff:Null/)   
 
